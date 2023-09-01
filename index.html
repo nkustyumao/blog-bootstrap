@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🙎‍♂️YUMAO🇹🇼</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .block {
+        width: 200px;
+        height: 200px;
+      }
+
+      .avatar {
+        width: 100px;
+        height: 100px;
+      }
+
+      .circle {
+        width: 32px;
+        height: 32px;
+      }
+
+      .fs-7 {
+        font-size: 0.875rem;
+      }
+
+      .card-title {
+        --bs-accordion-btn-bg: yellow;
+      }
+
+      .animated-text1 {
+        animation: textAnimation1 3s infinite;
+      }
+
+      @keyframes textAnimation1 {
+        0% {
+          color: rgba(91, 192, 235, 0.8);
+        }
+
+        50% {
+          color: rgba(247, 164, 190, 0.8);
+        }
+
+        100% {
+          color: rgba(255, 162, 89, 0.8);
+        }
+      }
+
+      .animated-text2 {
+        animation: textAnimation2 6s infinite;
+      }
+
+      @keyframes textAnimation2 {
+        0% {
+          color: rgb(4, 4, 129);
+        }
+
+        20% {
+          color: rgb(82, 82, 5);
+        }
+
+        40% {
+          color: rgb(64, 6, 76);
+        }
+
+        60% {
+          color: purple;
+        }
+
+        80% {
+          color: rgb(66, 7, 14);
+        }
+
+        100% {
+          color: rgb(6, 40, 52);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 整理 -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="sun" viewBox="0 0 16 16">
+        <path
+          d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+        />
+      </symbol>
+      <symbol id="laugh" viewBox="0 0 16 16">
+        <path
+          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z"
+        />
+      </symbol>
+    </svg>
+    <div class="container py-4">
+      <div class="row gx-5 gy-3">
+        <!-- 內容main -->
+        <div class="col-12 col-lg-8 col-xl-8">
+          <div class="bg-light p-4 rounded-2 shadow-sm">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">首頁</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >教學</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        最新消息
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">活動訊息</a></li>
+                        <li><a class="dropdown-item" href="#">官方公告</a></li>
+                        <li><a class="dropdown-item" href="#">更新資訊</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">聯絡我</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+            <div>
+              <div class="dropdown mb-4">
+                <button
+                  class="btn btn-primary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  文章分類
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">教學</a></li>
+                  <li><a class="dropdown-item" href="#">資源分享</a></li>
+                  <li><a class="dropdown-item" href="#">實作範例</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- 內文 -->
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide pb-4"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://s1.pearlcdn.com/TW/Upload/WALLPAPER/0a8ada5e12b20230525173935622.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://s1.pearlcdn.com/TW/Upload/WALLPAPER/cb575fb982220220711102002273.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://s1.pearlcdn.com/TW/Upload/WALLPAPER/017470db6c420220711101429622.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+
+            <h1 class="text-primary animate__animated animate__bounce">
+              黑色沙漠– 前往神靈之境的桃源世界| Pearl Abyss
+            </h1>
+            <div style="white-space: pre-line" class="animated-text2">
+              黑色沙漠（BlackDesertOnline）是一款由韓國遊戲公司PearlAbyss開發和發行的大型多人在線角色扮演遊戲（MMORPG）。該遊戲於2014年在韓國首次推出，並於2016年在全球范圍內上市。黑色沙漠以其引人入勝的遊戲世界、令人驚嘆的視覺效果和豐富的遊戲內容而聞名。
+              黑色沙漠的遊戲世界被稱為「黑色沙漠」，是一個以中世紀幻想為背景的大陸。玩家可以在這個廣闊而美麗的世界中自由探索，採集資源、狩獵野獸、打造武器和裝備、建造住宅、進行貿易、參與戰爭等各種活動。
+              遊戲提供了多種角色職業供玩家選擇，包括戰士、遊俠、巫師、女武神、武器大師、黑暗騎士、魔法師、劍士、狂戰士、小悍妮等等。每個職業都有其獨特的技能和戰鬥風格，玩家可以根據自己的偏好和遊戲目標來選擇最適合的職業。
+              黑色沙漠的戰鬥系統非常精彩，動作流暢且技巧豐富。玩家可以進行近戰或遠程攻擊，使用各種技能和組合來擊敗敵人。遊戲中的戰鬥也非常激烈，玩家可以參與大規模的戰爭和PvP對戰，與其他玩家或敵對勢力展開激烈的戰鬥。
+              此外，黑色沙漠還擁有一個豐富的經濟系統。玩家可以通過採集、煉獄、製造、貿易等方式獲得資源和財富。遊戲中還有大量的任務和活動可供玩家參與，例如探索迷宮、挑戰世界首領、參與公會活動等。
+              黑色沙漠的圖形效果非常出色，遊戲世界的細節和畫面非常精緻。遊戲還擁有一個強大的角色自定義系統，玩家可以根據自己的喜好和想像力來創建獨一無二的角色外觀。
+              總之，黑色沙漠是一款深受玩家喜愛的大型多人在線角色扮演遊戲。它提供了一個充滿冒險和可能性的虛擬世界，玩家可以在其中追求自己的目標，體驗豐富多樣的遊戲內容和激動人心的戰鬥。
+              <p class="text-success">
+                參考連結：<a href="#" class="text-reset icon-link"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                    /></svg
+                  >https://getbootstrap.com/docs/5.3/utilities/text/</a
+                >
+              </p>
+
+              <span class="text-break">
+                ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+              </span>
+            </div>
+
+            <!-- 進度條 -->
+            <div
+              class="progress mb-3"
+              role="progressbar"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 50%"
+              >
+                50%
+              </div>
+            </div>
+
+            <!-- 頁碼 -->
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#">前一頁</a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">下一頁</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- 頁籤 -->
+            <ul class="nav nav-tabs mb-3" id="tab" role="tablist">
+              <!-- 卡片 -->
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="cardtab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#cardtabpane"
+                  type="button"
+                  role="tab"
+                  aria-controls="cardtabpane"
+                  aria-selected="true"
+                >
+                  文章
+                </button>
+              </li>
+
+              <!-- 手風琴 -->
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="accordiontab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#accordiontabpane"
+                  type="button"
+                  role="tab"
+                  aria-controls="accordiontabpane"
+                  aria-selected="false"
+                >
+                  活動資訊
+                </button>
+              </li>
+
+              <!-- 表格 -->
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="tabletab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#tabletabpane"
+                  type="button"
+                  role="tab"
+                  aria-controls="tabletabpane"
+                  aria-selected="false"
+                >
+                  貢獻表格
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="TabContent">
+              <div
+                class="tab-pane fade"
+                id="tabletabpane"
+                role="tabpanel"
+                aria-labelledby="tabletab"
+                tabindex="0"
+              >
+                <!-- 表格 -->
+                <div class="table-responsive">
+                  <table class="table table-hover caption-top text-nowrap">
+                    <caption>
+                      1個魔女湯 = 1個未知的催化劑 = 90點貢獻度經驗
+                      （採集、釣魚、耕種、貿易、狩獵也可以獲得類似副產物
+                    </caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">貢獻度</th>
+                        <th scope="col">貢獻度經驗</th>
+                        <th scope="col">需求數量</th>
+                        <th scope="col">1000熟練度</th>
+                        <th scope="col">1400熟練度</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                      <tr>
+                        <th scope="row">0~29</th>
+                        <td>95</td>
+                        <td>1.06</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">30~44</th>
+                        <td>143</td>
+                        <td>1.06</td>
+                        <td>0.01</td>
+                        <td>0.01</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">45~59</th>
+                        <td>190</td>
+                        <td>2.11</td>
+                        <td>0.01</td>
+                        <td>0.01</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">60~74</th>
+                        <td>238</td>
+                        <td>2.64</td>
+                        <td>0.01</td>
+                        <td>0.01</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">75~99</th>
+                        <td>333</td>
+                        <td>3.7</td>
+                        <td>0.01</td>
+                        <td>0.01</td>
+                      </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show active"
+                id="cardtabpane"
+                role="tabpanel"
+                aria-labelledby="cardtab"
+                tabindex="0"
+              >
+                <!-- 更多文章 卡片內容 -->
+                <h2 class="fs-3 text-primary mb-4"></h2>
+                <div class="row row-cols-1 row-cols-lg-2 g-3 mb-4">
+                  <div class="col order-2">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h4 class="card-title text-truncate">
+                          [GM Note] 時間效益最大化！高CP值玩法指南！
+                        </h4>
+                        <span>2023/5/19</span>
+                        <p class="card-text">
+                          為你統整所有資訊，現行活動一目了然！根據遊玩內容為你分門別類！把時間效益最大化！忙碌的你也能輕鬆享受！
+                          ✦ 按照步驟玩，好康福利一個都不會錯過！✦
+                        </p>
+                        <a href="#" class="btn btn-primary stretched-link"
+                          >閱讀更多</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col order-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h4 class="card-title text-truncate">
+                          [GM Note] 覺醒羽士，事前體驗開始！
+                        </h4>
+                        <span>2023/5/22</span>
+                        <p class="card-text">
+                          在開發者評論中展現的覺醒羽士，
+                          請在黑色沙漠研究室中搶先體驗吧！ 事前體驗期間 :
+                          2023年5月29日(一)黑色沙漠研究室維護後 -
+                          黑色沙漠正式伺服器覺醒羽士更新前
+                        </p>
+                        <a href="#" class="btn btn-primary stretched-link"
+                          >閱讀更多</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col order-1">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h4 class="card-title text-truncate">
+                          [GM Note] 晨曦之國的故事 - 第二話「九尾狐傳」
+                        </h4>
+                        <span>2023/5/18</span>
+                        <p class="card-text">
+                          6月，晨曦之國將來到冒險家身邊！ 各位知道嗎？
+                          晨曦之國發生的事，在現實居然真的存在。
+                          透過逗趣的插畫，一起追溯傳說的起源吧！
+                          [!]還沒閱讀上一話的冒險家，請記得閱讀第一話「巫靈傳」唷～
+                        </p>
+                        <a href="#" class="btn btn-primary stretched-link"
+                          >閱讀更多</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col order-4">
+                    <div class="card h-100">
+                      <div class="card-body placeholder-glow">
+                        <h4 class="card-title text-truncate">
+                          <span class="placeholder col-12"></span>
+                        </h4>
+                        <span class="placeholder col-3"></span>
+                        <p class="card-text">
+                          <span class="placeholder col-7"></span>
+                          <span class="placeholder col-4"></span>
+                          <span class="placeholder col-4"></span>
+                          <span class="placeholder col-6"></span>
+                          <span class="placeholder col-8"></span>
+                        </p>
+                        <a
+                          href="#"
+                          class="btn btn-primary disabled placeholder col-6"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="accordiontabpane"
+                role="tabpanel"
+                aria-labelledby="accordiontab"
+                tabindex="0"
+              >
+                <!-- 手風琴 -->
+                <div class="accordion accordion-flush mb-4" id="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#item1"
+                        aria-expanded="false"
+                        aria-controls="item1"
+                      >
+                        [GM Note] 全新國度《晨曦之國》 - 開發者評論
+                      </button>
+                    </h2>
+                    <div
+                      id="item1"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="accordion-body">
+                        晨曦之國》將於6月14日正式開放！ 大家期盼已久的晨曦之國，
+                        終於準備好在6月14日(三)迎接各位冒險家！
+                        接下來由黑色沙漠開發者們，親自帶領各位了解這迷人的東方國度～
+                        請透過開發者評論影片搶先體驗全新地區晨曦之國吧！
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#item2"
+                        aria-expanded="false"
+                        aria-controls="item2"
+                      >
+                        [公告] 5月25日(四)伺服器臨時維護公告
+                      </button>
+                    </h2>
+                    <div
+                      id="item2"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="accordion-body">
+                        親愛的冒險家們您好，我們是黑色沙漠營運團隊。 5月
+                        25日(四)黑色沙漠為了提供更穩定的服務，將進行臨時維護。
+                        正處於遊戲中的冒險家們請至安全區域登出遊戲。
+                        ※若在戰鬥區域中結束遊戲的話，角色以及坐騎有可能會被怪物或是其他角色攻擊。
+                        ※維護期間無法從網頁倉庫發送道具到遊戲內的角色。
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#item3"
+                        aria-expanded="false"
+                        aria-controls="item3"
+                      >
+                        [活動情報] 夏季來臨！肉鰭魚釣起來！
+                      </button>
+                    </h2>
+                    <div
+                      id="item3"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordion"
+                    >
+                      <div class="accordion-body">
+                        夏季就是要釣[季節]肉鰭魚！ 在所有伺服器中大釣特釣！
+                        把[季節]肉鰭魚交換成豐富的道具吧！ 2023年 5月
+                        24日(三)定期維護後 ~ 7月 26日(三)定期維護前
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="button-group py-4">
+              <a
+                class="btn btn-outline-primary"
+                data-bs-toggle="collapse"
+                href="#gridCollapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="gridCollapse"
+                >偷看</a
+              >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#cryCollapse"
+                aria-expanded="false"
+                aria-controls="cryCollapse"
+              >
+                哭哭
+              </button>
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#buttonCollapse"
+                aria-expanded="false"
+                aria-controls="buttonCollapse"
+              >
+                爆擊
+              </button>
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".all"
+                aria-expanded="false"
+                aria-controls="gridCollapse buttonCollapse"
+              >
+                全部
+              </button>
+            </div>
+            <div class="d-flex">
+              <div class="collapse all" id="gridCollapse">
+                <img
+                  src="https://truth.bahamut.com.tw/s01/202105/55a7a972c36dc3a26ce8b55c211f0187.GIF"
+                  alt=""
+                />
+              </div>
+              <div class="collapse all" id="cryCollapse">
+                <img
+                  src="https://truth.bahamut.com.tw/s01/202105/8d00fb1ded4675b87d16729277e31e96.GIF"
+                  alt=""
+                />
+              </div>
+              <div class="collapse all" id="buttonCollapse">
+                <img
+                  src="https://truth.bahamut.com.tw/s01/202105/0222bc48cb6db77bc05a5f005431462c.GIF"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <!-- 留言 -->
+            <h2 class="fs-3 text-primary my-4">留言</h2>
+            <form>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="請輸入姓名"
+                />
+                <label for="name" class="form-label">姓名</label>
+                <div class="form-text">姓名或暱稱</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" id="email" />
+                  <span class="input-group-text">@example.com</span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="reply" class="form-label">留言</label>
+                <textarea class="form-control" id="reply" rows="5"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="more" class="form-label"
+                  >還想了解關於 Bootstrap 的...</label
+                >
+                <input
+                  class="form-control"
+                  list="moreList"
+                  id="more"
+                  placeholder="輸入想了解的內容"
+                />
+                <datalist id="moreList">
+                  <option value="按鈕">Button</option>
+                  <option value="模式對話框">Modal</option>
+                  <option value="圖片">Image</option>
+                  <option value="表格">Table</option>
+                </datalist>
+              </div>
+              <div class="mb-3">
+                <label for="info" class="form-label">從哪裡得知文章?</label>
+                <select class="form-select" id="info">
+                  <option value="1">Google 搜尋</option>
+                  <option value="2">Facebook 貼文</option>
+                  <option value="3">朋友分享</option>
+                </select>
+              </div>
+              <div class="form-check form-switch mb-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  value=""
+                  id="subscribe"
+                />
+                <label class="form-check-label" for="subscribe">
+                  我想訂閱電子報，不錯過每一篇教學！
+                </label>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="submit" class="btn btn-primary">送出</button>
+                <button
+                  type="button"
+                  class="btn btn-secondary focus-ring"
+                  style="
+                    --bs-focus-ring-color: rgba(var(--bs-secondary-rgb), 0.25);
+                  "
+                >
+                  取消
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-info d-inline-flex align-items-center"
+                  id="alertBtn"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-emoji-laughing-fill"
+                  >
+                    <use xlink:href="#laugh" />
+                  </svg>
+                  點我給你一個驚喜
+                </button>
+              </div>
+
+              <div id="alert"></div>
+            </form>
+
+            <!-- 吐司 -->
+            <button type="button" class="btn btn-success mt-3" id="toastBtn">
+              Hello
+            </button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="toast"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <strong class="me-auto">黑沙想跟你打招呼</strong>
+                  <small>0分鐘前</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">冒險家你好～～</div>
+              </div>
+            </div>
+
+            <!-- popover -->
+            <button
+              type="button"
+              class="btn btn-danger mt-3"
+              data-bs-toggle="popover"
+              data-bs-title="popover
+                        想跟你打招呼"
+              data-bs-content="冒險家你好呀"
+            >
+              點我點我
+            </button>
+
+            <!-- tooltip -->
+            <button
+              type="button"
+              class="btn btn-secondary mt-3"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-title="Tooltip on top"
+            >
+              Tooltip on top
+            </button>
+
+            <!-- modal 按鈕 -->
+            <button
+              type="button"
+              class="btn btn-primary mt-3"
+              data-bs-toggle="modal"
+              data-bs-target="#modal1"
+            >
+              開啟 modal 1
+            </button>
+
+            <!-- offcanvas按鈕 -->
+            <a
+              class="btn btn-info mt-3"
+              data-bs-toggle="offcanvas"
+              href="#offcanvas"
+              role="button"
+              aria-controls="offcanvas"
+            >
+              開啟offcanvas
+            </a>
+          </div>
+        </div>
+
+        <!-- 右側邊欄 -->
+        <div class="col-12 col-lg-4 col-xl-4">
+          <div class="row gx-5 gy-3 gy-lg-4">
+            <!-- 最新文章 -->
+            <div class="col-12">
+              <div class="text-bg-light p-4 rounded-2 shadow-sm">
+                <h2
+                  class="border-bottom pb-2 border-primary border-3 fs-4 text-primary mb-3"
+                >
+                  最新文章
+                </h2>
+                <div class="d-flex flex-column-reverse">
+                  <div
+                    class="p-3 mb-3 bg-body rounded-2 shadow-sm d-flex position-relative"
+                    style="height: 150px"
+                  >
+                    <div class="d-flex flex-column">
+                      <div class="mb-auto">
+                        [活動情報] 夏季通行證！超猛名馬支援！
+                      </div>
+                      <span class="d-block text-secondary fs-7">100人看過</span>
+                      <span class="d-block text-secondary fs-7">2023/5/18</span>
+                    </div>
+                    <div class="h-100" style="aspect-ratio: 1 / 1">
+                      <img
+                        src="https://truth.bahamut.com.tw/s01/202105/8a85f1f4a596e0589cc9699de0dd0cd7.GIF"
+                        alt=""
+                        class="w-100 h-100 object-fit-cover rounded-2"
+                      />
+                    </div>
+                    <div
+                      class="position-absolute top-0 start-0 translate-middle circle text-bg-success d-flex justify-content-center align-items-center rounded-circle"
+                    >
+                      3
+                    </div>
+                  </div>
+                  <div
+                    class="p-3 mb-3 bg-body rounded-2 shadow-sm d-flex position-relative"
+                    style="height: 150px"
+                  >
+                    <div class="d-flex flex-column">
+                      <div class="mb-auto">
+                        [活動情報] 夏季通行證！超猛名馬支援！
+                      </div>
+                      <span class="d-block text-secondary fs-7">100人看過</span>
+                      <span class="d-block text-secondary fs-7">2023/5/18</span>
+                    </div>
+                    <div class="h-100" style="aspect-ratio: 1 / 1">
+                      <img
+                        src="https://truth.bahamut.com.tw/s01/202105/8a85f1f4a596e0589cc9699de0dd0cd7.GIF"
+                        alt=""
+                        class="w-100 h-100 object-fit-cover rounded-2"
+                      />
+                    </div>
+                    <div
+                      class="position-absolute top-0 start-0 translate-middle circle text-bg-success d-flex justify-content-center align-items-center rounded-circle"
+                    >
+                      2
+                    </div>
+                  </div>
+                  <div
+                    class="p-3 mb-3 bg-body rounded-2 shadow-sm d-flex position-relative"
+                    style="height: 150px"
+                  >
+                    <div class="d-flex flex-column">
+                      <div class="mb-auto">
+                        [活動情報] 夏季通行證！超猛名馬支援！
+                      </div>
+                      <span class="d-block text-secondary fs-7">100人看過</span>
+                      <span class="d-block text-secondary fs-7">2023/5/18</span>
+                    </div>
+                    <div class="h-100" style="aspect-ratio: 1 / 1">
+                      <img
+                        src="https://truth.bahamut.com.tw/s01/202105/8a85f1f4a596e0589cc9699de0dd0cd7.GIF"
+                        alt=""
+                        class="w-100 h-100 object-fit-cover rounded-2"
+                      />
+                    </div>
+                    <div
+                      class="position-absolute top-0 start-0 translate-middle circle text-bg-success d-flex justify-content-center align-items-center rounded-circle"
+                    >
+                      1
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 文章分類 -->
+            <div class="col-12">
+              <div class="text-bg-light p-4 rounded-2 shadow-sm">
+                <h2
+                  class="border-bottom pb-2 border-primary border-3 fs-4 text-primary mb-3"
+                >
+                  文章分類
+                </h2>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
+                  >
+                    生活文章
+                    <span class="badge bg-primary rounded-pill">14</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
+                  >
+                    戰鬥文章
+                    <span class="badge bg-primary rounded-pill">2</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
+                  >
+                    航海文章
+                    <span class="badge bg-primary rounded-pill">1</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 關於我 -->
+            <div class="col-12">
+              <div class="text-bg-light p-4 rounded-2 shadow-sm">
+                <h2
+                  class="border-bottom pb-2 border-primary border-3 fs-4 mb-3 text-primary"
+                >
+                  關於我
+                </h2>
+                <div class="vstack align-items-center">
+                  <div
+                    class="rounded-circle avatar bg-secondary mb-2 overflow-hidden"
+                  >
+                    <img
+                      src="./images/avatar.png"
+                      alt=""
+                      class="w-100 h-100 object-fit-cover"
+                    />
+                  </div>
+                  <h4 class="text-uppercase fs-4">Steven yu</h4>
+                  <div class="badge rounded-pill text-bg-primary mb-2">
+                    資深冒險家
+                  </div>
+                </div>
+                <dl class="row g-0 mb-0">
+                  <dt class="col-3">TEL</dt>
+                  <dd class="col-9">0857-957-957</dd>
+                  <dt class="col-3">Email</dt>
+                  <dd class="col-9">goodmorning123@gmail.com</dd>
+                </dl>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div
+                class="container-fluid text-bg-light mt-1 rounded-2 shadow-sm"
+              >
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control m-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-12"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 1 -->
+      <div
+        class="modal fade"
+        id="modal1"
+        tabindex="-1"
+        aria-labelledby="開啟modal1"
+        aria-hidden="true"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal2"
+              >
+                開啟 modal 2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal 2 -->
+      <div
+        class="modal fade"
+        id="modal2"
+        tabindex="-1"
+        aria-labelledby="開啟modal2"
+        aria-hidden="true"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
+              >
+                開啟 modal 1
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- offcanvas -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvas"
+        aria-labelledby="offcanvasLabel"
+        data-bs-scroll="true"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">offcanvas</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you
+            have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown but
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="text-center text-white w-100">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Black Desert
+          <a class="text-white" href="https://mdbootstrap.com/"
+            >PearlAbbys.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- <script src="./bootstrap.bundle.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const alertPlaceholder = document.getElementById("alert");
+      const alertTrigger = document.getElementById("alertBtn");
+
+      const appendAlert = (message, type) => {
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = [
+          `<div class="alert alert-${type} alert-dismissible mt-3" role="alert">`,
+          `   <div class="d-flex align-items-center">
+              <svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high">
+                <use xlink:href="#sun"/>
+              </svg>
+              ${message}
+            </div>`,
+          '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+          "</div>",
+        ].join("");
+
+        alertPlaceholder.append(wrapper);
+      };
+
+      if (alertTrigger) {
+        alertTrigger.addEventListener("click", () => {
+          appendAlert("哈囉～～～～～～～～～～", "info");
+        });
+      }
+    </script>
+
+    <script>
+      const toastTrigger = document.getElementById("toastBtn");
+      const toast = document.getElementById("toast");
+
+      if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toast);
+        toastTrigger.addEventListener("click", () => {
+          toastBootstrap.show();
+        });
+      }
+    </script>
+    <!-- popoverList -->
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
+
+    <!-- tooltip -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <script
+      type="text/javascript"
+      color="0,0,0"
+      opacity=".5"
+      zIndex="1"
+      count="1200"
+      src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js"
+      integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
